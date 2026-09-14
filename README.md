@@ -21,6 +21,10 @@ Modpacks for the Dragonland server. NeoForge 1.21.1, built around Cobblemon 1.8.
 
 4. Click **OK**. The launcher fetches the mods and sets the instance up for you (about 1 GB of downloads).
 5. Select the instance → **Edit** → **Settings** → **Memory**, and set the maximum to **20480 MB**.
+6. Same screen, **Java** tab: tick **Java installation**, click **Auto-detect** and choose the **21** entry.
+
+   If you already had an old Java installed, the launcher will pick that one instead and the game will not start
+   — the log says `Minecraft 24w14a and above require the use of Java 21`.
 
 If your launcher refuses that file, use the full export instead — same pack, one 1 GB download:
 `https://dragonland.online/pack.zip`
