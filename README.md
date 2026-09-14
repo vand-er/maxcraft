@@ -5,15 +5,22 @@ Modpacks for the Dragonland server. NeoForge 1.21.1, built around Cobblemon 1.8.
 ## Install
 
 1. Install [MultiMC](https://multimc.org/) or [Prism Launcher](https://prismlauncher.org/).
-2. **Add Instance** → **Import from zip**, and paste this link into the box:
+2. Install **Java 21** and run the installer with its default options:
+
+   ```
+   https://dragonland.online/java.msi
+   ```
+
+   (That is Eclipse Temurin 21 for 64-bit Windows, straight from Adoptium. Prism can download Java by itself,
+   MultiMC cannot, so do this first.)
+3. **Add Instance** → **Import from zip**, and paste this link into the box:
 
    ```
    https://dragonland.online/pack.zip
    ```
 
-3. Click **OK**. The launcher downloads and unpacks the pack for you (about 1 GB).
-4. Select the instance → **Edit** → **Settings** → **Memory**, and set the maximum to **20480 MB**.
-5. Java 21 is required. The launcher offers to download it if you do not have it.
+4. Click **OK**. The launcher downloads and unpacks the pack for you (about 1 GB).
+5. Select the instance → **Edit** → **Settings** → **Memory**, and set the maximum to **20480 MB**.
 
 Both servers are already in the multiplayer list. The server is whitelisted, so ask for access before you join.
 
