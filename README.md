@@ -25,9 +25,18 @@ Modpacks for the Dragonland server. NeoForge 1.21.1, built around Cobblemon 1.8.
 
    If you already had an old Java installed, the launcher will pick that one instead and the game will not start
    — the log says `Minecraft 24w14a and above require the use of Java 21`.
+7. Close the launcher and run the updater once. It checks the instance and switches on automatic updates, so every
+   launch from then on picks up new mods by itself:
 
-If your launcher refuses that file, use the full export instead — same pack, one 1 GB download:
-`https://dragonland.online/pack.zip`
+   ```
+   https://dragonland.online/sync.exe
+   ```
+
+   (Windows may say the file is unrecognised because it is new and unsigned: **More info → Run anyway**. The same
+   file is on the [Releases](https://github.com/vand-er/maxcraft/releases/latest) page as `MaxCraft-Sync.exe`.)
+
+If your launcher refuses the pack file, use the full export instead — same pack, one 1 GB download, updater already
+built in: `https://dragonland.online/pack.zip`
 
 Both servers are already in the multiplayer list. The server is whitelisted, so ask for access before you join.
 
@@ -58,4 +67,9 @@ battles, with loot-table rewards.
 
 ## Updating
 
-Re-import the same link when a new build is posted; the link always points at the newest release.
+Nothing to do. The updater runs before every launch: it compares the instance with the newest release, fetches what
+changed (usually a few mods, a few seconds) and the game starts. A jar you added yourself is switched off rather than
+deleted, so the Mods tab can turn it back on.
+
+If you skipped step 7, run `https://dragonland.online/sync.exe` once with the launcher closed and it takes over from
+there. Re-importing the pack is never needed.
