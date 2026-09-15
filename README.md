@@ -37,6 +37,10 @@ Cobblemon 1.8.1 and its add-ons, Create and Create Aeronautics, AE2, Sophisticat
 Waystones, Farmer's Delight, Simple Voice Chat, a set of decoration mods, five shader packs, and the usual
 performance and quality-of-life mods (Sodium, Iris, JEI, Jade, Xaero's).
 
+Structures come from Cobblemon: Extra Structures, Cobblemon Trainer Structures, Aio's Extra Structures and Rad Gyms.
+Loot chests are per-player (Lootr), so being second into a dungeon still gets you the loot, and FTB Ultimine breaks a
+whole vein or tree at once when you hold the key.
+
 There is an in-game quest book (press `` ` ``) that walks through every major mod and the Cobblemon trainer
 battles, with loot-table rewards.
 
